@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
   s.authors      = { 'lzc' => nil }
   s.source       = { :git => 'https://github.com/ZClee128/ZipArchive.git', :tag => "#{s.version}" }
-  s.ios.deployment_target = '15.3'
+  s.ios.deployment_target = '13.0'
 #  s.osx.deployment_target = '10.15'
 #  s.tvos.deployment_target = '15.3'
 #  s.visionos.deployment_target = '1.0'
