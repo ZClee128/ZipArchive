@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'ZCZipArchive'
-  s.version      = '2.6.0'
+  s.version      = '2.6.1'
   s.summary      = 'Utility class for zipping and unzipping files on iOS, tvOS, visionOS, watchOS, and macOS.'
   s.description  = 'ZCZipArchive is a simple utility class for zipping and unzipping files on iOS, tvOS, visionOS, watchOS, and macOS. It supports AES and PKWARE encryption.'
   s.homepage     = 'https://github.com/ZClee128/ZipArchive'
