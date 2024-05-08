@@ -5,13 +5,13 @@ Pod::Spec.new do |s|
   s.description  = 'ZCZipArchive is a simple utility class for zipping and unzipping files on iOS, tvOS, visionOS, watchOS, and macOS. It supports AES and PKWARE encryption.'
   s.homepage     = 'https://github.com/ZClee128/ZipArchive'
   s.license      = { :type => 'MIT', :file => 'LICENSE.txt' }
-  s.authors      = { 'Sam Soffes' => 'sam@soff.es', 'Joshua Hudson' => nil, 'Wilson Chen' => nil }
+  s.authors      = { 'lzc' => nil }
   s.source       = { :git => 'https://github.com/ZClee128/ZipArchive.git', :tag => "#{s.version}" }
-  s.ios.deployment_target = '15.5'
-  s.osx.deployment_target = '10.15'
-  s.tvos.deployment_target = '15.4'
-  s.visionos.deployment_target = '1.0'
-  s.watchos.deployment_target = '8.4'
+  s.ios.deployment_target = '15.3'
+#  s.osx.deployment_target = '10.15'
+#  s.tvos.deployment_target = '15.3'
+#  s.visionos.deployment_target = '1.0'
+#  s.watchos.deployment_target = '8.4'
   s.source_files = 'SSZipArchive/*.{m,h}', 'SSZipArchive/include/*.{m,h}', 'SSZipArchive/minizip/*.{c,h}'
   s.resource_bundles = {'SSZipArchive' => ['SSZipArchive/Supporting Files/Privacyinfo.xcprivacy']}
   s.public_header_files = 'SSZipArchive/*.h'
