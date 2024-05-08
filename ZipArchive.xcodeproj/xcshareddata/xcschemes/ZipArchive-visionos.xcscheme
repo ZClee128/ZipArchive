@@ -16,7 +16,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C8DEE3642BE59172005150F4"
-               BuildableName = "ZipArchive-visionos.framework"
+               BuildableName = "ZipArchive.framework"
                BlueprintName = "ZipArchive-visionos"
                ReferencedContainer = "container:ZipArchive.xcodeproj">
             </BuildableReference>
@@ -51,7 +51,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C8DEE3642BE59172005150F4"
-            BuildableName = "ZipArchive-visionos.framework"
+            BuildableName = "ZipArchive.framework"
             BlueprintName = "ZipArchive-visionos"
             ReferencedContainer = "container:ZipArchive.xcodeproj">
          </BuildableReference>
